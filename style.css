@@ -1,0 +1,249 @@
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #2d3436;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+    letter-spacing: -0.5px;
+  }
+  
+  header {
+    background: rgba(40, 44, 52, 0.95);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav {
+    background-color: rgba(68, 68, 68, 0.9);
+    padding: 1.2rem;
+    text-align: center;
+  }
+  
+  nav .Logo h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    background: linear-gradient(45deg, #00b4d8, #90e0ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 25px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background: rgba(144, 224, 239, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #90e0ef;
+    transition: width 0.3s ease;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .hamburger .bar {
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    margin: 30px 0;
+    padding: 30px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-left: 5px solid #00b4d8;
+  }
+  
+  section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  section h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #00b4d8;
+  }
+  
+  #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  #skills li {
+    background: linear-gradient(45deg, #00b4d8, #90e0ef);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(0, 180, 216, 0.3);
+  }
+  
+  #skills li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 180, 216, 0.4);
+  } 
+  .contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    color: #2c3e50;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .contact-link:hover {
+    transform: translateX(10px);
+    background: rgba(144, 224, 239, 0.2);
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    width: 30px;
+    text-align: center;
+    color: #00b4d8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-link {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .icon {
+      font-size: 2rem;
+    }
+  }
+border-top: {3px solid #00b4d8;
+}
+  
+  footer {
+    background: rgba(40, 44, 52, 0.95);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 60px;#contact .contact-items {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+  
+  footer p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background: rgba(68, 68, 68, 0.95);
+        width: 100%;
+        top: 70px;
+        left: 0;
+        padding: 20px 0;
+        backdrop-filter: blur(10px);
+    }
+  
+    nav li {
+        margin: 10px 0;
+    }
+  
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+  
+    .hamburger {
+        display: flex;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+  
+    main {
+        margin: 20px auto;
+    }
+  
+    section {
+        padding: 25px;
+        margin: 20px 0;
+    }
+  }
+}
