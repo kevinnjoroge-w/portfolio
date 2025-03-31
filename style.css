@@ -19,10 +19,11 @@ body {
     color: #fff;
     padding: 1.5rem;
     text-align: center;
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: auto;
   }
   
   nav {
