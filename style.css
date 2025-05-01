@@ -183,11 +183,11 @@ body {
   }
   footer {
     background: rgba(40, 44, 52, 0.95);
-    color: #fff;
+    color: #a8974b;
     padding: 2rem;
     text-align: center;
     margin-top: 60px;#contact .contact-items {
-        display: flex;
+        display: inline-flex;
         flex-direction: column;
         gap: 1.5rem;
       }
