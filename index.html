@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Njoroge Resume website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -39,144 +40,152 @@
     <main>
         <section id="about">
             <h2><i>About Me</i></h2>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                  <img src="IMG-20241230-WA0118.jpg" alt="kevin" class="rounded-xl shadow-2xl w-full h-auto">
+                </div>
             <p>A dedicated and enthusiastic computer science student currently pursuing a B.Sc. in Applied
                 Computer Science at Chuka University. I am seeking to leverage my creativity, analytical skills,
                 and foundational knowledge in cybersecurity and programming  to contribute effectively as a Cyber 
-                Security Analyst. A fullstack develoer who prides himself in creating solutions that help solve real 
+                Security Analyst. A fullstack developer who prides himself in creating solutions that help solve real 
                 world issues and create a better world </p>
         </section>
+
         <section id="Education"><h2>Education backgroud</h2> <p>I am currently enrolled in Chuka University studying a 
             B.Sc. in Applied Computer Science (Expected Graduation: 2027)</p></section>
        
 
-       <section id="skills">
-           <h2><i>Skills</i></h2>
-            <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-6">Frontend Development</h3>
-                <div class="space-y-6">
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">HTML/CSS</span>
-                            <span class="text-gray-600">95%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 95%"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">JavaScript</span>
-                            <span class="text-gray-600">90%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">React</span>
-                            <span class="text-gray-600">85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">Tailwind CSS</span>
-                            <span class="text-gray-600">90%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-6">Backend Development</h3>
-                <div class="space-y-6">
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">Node.js</span>
-                            <span class="text-gray-600">85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">Python</span>
-                            <span class="text-gray-600">80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">MongoDB</span>
-                            <span class="text-gray-600">75%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex justify-between mb-2">
-                            <span class="font-medium text-gray-800">SQL</span>
-                            <span class="text-gray-600">70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="mt-16">
-            <h3 class="text-xl font-semibold text-gray-800 mb-8 text-center">Tools & Technologies</h3>
-            <div class="flex flex-wrap justify-center gap-6">
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fab fa-git-alt text-3xl text-gray-700"></i>
-                    </div>
-                    <span class="text-sm text-gray-600">Git</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fab fa-github text-3xl text-gray-700"></i>
-                    </div>
-                    <span class="text-sm text-gray-600">GitHub</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fab fa-figma text-3xl text-gray-700"></i>
-                    </div>
-                    <span class="text-sm text-gray-600">Figma</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fab fa-docker text-3xl text-gray-700"></i>
-                    </div>
-                    <span class="text-sm text-gray-600">Docker</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fas fa-server text-3xl text-gray-700"></i>
-                    </div>
-                    <span class="text-sm text-gray-600">AWS</span>
-                </div>
-            </div>
-        </div>
-    </div>
-       </section>
+            <section id="skills" class="py-20 bg-gray-50">
+              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                  <div class="text-center mb-16">
+                      <h2 class="text-3xl font-bold text-gray-900 mb-4">My Skills</h2>
+                      <p class="text-gray-600 max-w-2xl mx-auto">Technologies I work with and my proficiency level</p>
+                      <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+                  </div>
+                  
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                      <div>
+                          <h3 class="text-xl font-semibold text-gray-800 mb-6">Frontend Development</h3>
+                          <div class="space-y-6">
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">HTML/CSS</span>
+                                      <span class="text-gray-600">95%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 95%"></div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">JavaScript</span>
+                                      <span class="text-gray-600">90%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 90%"></div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">React</span>
+                                      <span class="text-gray-600">85%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 85%"></div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">Tailwind CSS</span>
+                                      <span class="text-gray-600">90%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 90%"></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div>
+                          <h3 class="text-xl font-semibold text-gray-800 mb-6">Backend Development</h3>
+                          <div class="space-y-6">
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">Node.js</span>
+                                      <span class="text-gray-600">85%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 85%"></div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">Python</span>
+                                      <span class="text-gray-600">80%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 80%"></div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">MongoDB</span>
+                                      <span class="text-gray-600">75%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 75%"></div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="flex justify-between mb-2">
+                                      <span class="font-medium text-gray-800">SQL</span>
+                                      <span class="text-gray-600">70%</span>
+                                  </div>
+                                  <div class="skill-bar">
+                                      <div class="skill-progress" style="width: 70%"></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="mt-16">
+                      <h3 class="text-xl font-semibold text-gray-800 mb-8 text-center">Tools & Technologies</h3>
+                      <div class="flex flex-wrap justify-center gap-6">
+                          <div class="flex flex-col items-center">
+                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                  <i class="fab fa-git-alt text-3xl text-gray-700"></i>
+                              </div>
+                              <span class="text-sm text-gray-600">Git</span>
+                          </div>
+                          <div class="flex flex-col items-center">
+                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                  <i class="fab fa-github text-3xl text-gray-700"></i>
+                              </div>
+                              <span class="text-sm text-gray-600">GitHub</span>
+                          </div>
+                          <div class="flex flex-col items-center">
+                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                  <i class="fab fa-figma text-3xl text-gray-700"></i>
+                              </div>
+                              <span class="text-sm text-gray-600">Figma</span>
+                          </div>
+                          <div class="flex flex-col items-center">
+                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                  <i class="fab fa-docker text-3xl text-gray-700"></i>
+                              </div>
+                              <span class="text-sm text-gray-600">Docker</span>
+                          </div>
+                          <div class="flex flex-col items-center">
+                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                  <i class="fas fa-server text-3xl text-gray-700"></i>
+                              </div>
+                              <span class="text-sm text-gray-600">AWS</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
 
         <section id="education">
             <h2><i>Education</i></h2>
@@ -194,7 +203,7 @@
             <p><strong>IT  technician and Cybercafe Assistant </strong> Xtrill cybercafe and electronics (Feb 2023 - Jul 2023)</p>
             <p><strong>Media team operator</strong> PCEA Gikuni church (Jan 2019-May 2022)</p>
             <p>Here is my CV that contains details of my education and work experience.</p>
-<a href="kevin's cv.pdf" target="_blank">
+<a href="kevin's cv JIJO.pdf" target="_blank">
     <button>My CV</button>
 </a>
         </section>
@@ -202,8 +211,15 @@
         <section id="projects">
             <H2><i>Projects</i></H2>
             <p>Here is a link of my github where all of my projects are posted there and available for viewing and collaboration.
-
+                <div class="flex justify-between items-center">
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition duration-300">View Projects</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 transition duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </p>
+            <br/>
+            
             <!--
             <div class="project-card bg-white rounded-lg overflow-hidden">
               <div class="relative overflow-hidden h-48">
@@ -224,9 +240,31 @@
                       <a href="#" class="text-gray-600 hover:text-gray-800 transition duration-300">
                           <i class="fab fa-github"></i>
                       </a>
-                  </div>-->
+                  </div>
               </div>
-          </div>
+          </div>-->
+          <div  id ="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
+            <div class="relative overflow-hidden h-48">
+                <img src="IMG_0493.jpg" alt="Portfolio Website",width = "25%" ,hieght = "25%">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                    <div>
+                        <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
+                        <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="p-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Portfolio Website</h3>
+                <p class="text-gray-600 mb-4">A responsive portfolio website showcasing my skills, projects, and contact information.</p>
+                <div class="flex justify-between items-center">
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition duration-300">View Project</a>
+                    <a href="https://github.com/kevinnjoroge-w/portfolio" class="text-gray-600 hover:text-gray-800 transition duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
             <p><strong><a href="https://github.com/kevinnjoroge-w">Github</a></strong></p>
         </section>
 
@@ -319,6 +357,7 @@
 </div>        
 
         </section>
+        
 
     </main>
     
@@ -328,7 +367,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center mb-8">
                 <div class="mb-6 md:mb-0">
-                    <span class="text-blue-600 font-bold text-2xl">KN</span>
+                    <span class="text-blue-600 font-bold text-2xl">Kevin Njoroge</span>
                 </div>
                 <div class="flex space-x-6">
                     <a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a>
@@ -340,15 +379,15 @@
             </div>
             
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Kevin Njoroge. All rights reserved.</p>
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 Kevin Njoroge. All rights reserved.</p>
                 <div class="flex space-x-4">
                     <a href="#" class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <a href="https://github.com/kevinnjoroge-w" class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-github"></i>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-white transition duration-300">
