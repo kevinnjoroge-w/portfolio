@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Njoroge Resume website</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
@@ -10,30 +11,34 @@
 </head>
 <header>
     <!-- Floating Header (Navigation bar) -->
-        <nav>
-            <div class="Logo">
-                <h1>Kevin Njoroge</h1>
-            </div>
+    <nav>
+        <div class="Logo">
+            <h1>Kevin Njoroge</h1>
+        </div>
 
-            <!-- Hamburger icon -->
-            <div class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+        <!-- Hamburger icon -->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
 
-            <ul id="nav-list">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><div class="hidden md:block">
-                  <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition duration-300">Hire Me</a>
-              </div></li>
-            </ul>
-        </nav>
+        <ul id="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <div class="hidden md:block">
+                    <a href="#contact"
+                        class="bg-blue-600 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition duration-300">Hire
+                        Me</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
 </header>
 
 <body>
@@ -42,157 +47,167 @@
             <h2><i>About Me</i></h2>
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2">
-                  <img src="IMG-20241230-WA0118.jpg" alt="kevin" class="rounded-xl shadow-2xl w-full h-auto">
+                    <img src="src /IMG-20241230-WA0118.jpg" alt="kevin" class="rounded-xl shadow-2xl w-full h-auto">
                 </div>
-            <p>A dedicated and enthusiastic computer science student currently pursuing a B.Sc. in Applied
-                Computer Science at Chuka University. I am seeking to leverage my creativity, analytical skills,
-                and foundational knowledge in cybersecurity and programming  to contribute effectively as a Cyber 
-                Security Analyst. A fullstack developer who prides himself in creating solutions that help solve real 
-                world issues and create a better world </p>
+                <p>A dedicated and enthusiastic computer science student currently pursuing a B.Sc. in Applied
+                    Computer Science at Chuka University. I am seeking to leverage my creativity, analytical skills,
+                    and foundational knowledge in cybersecurity and programming to contribute effectively as a Cyber
+                    Security Analyst. A fullstack developer who prides himself in creating solutions that help solve
+                    real
+                    world issues and create a better world </p>
         </section>
 
-        <section id="Education"><h2>Education backgroud</h2> <p>I am currently enrolled in Chuka University studying a 
-            B.Sc. in Applied Computer Science (Expected Graduation: 2027)</p></section>
-       
+        <section id="Education">
+            <h2>Education backgroud</h2>
+            <p>I am currently enrolled in Chuka University studying a
+                B.Sc. in Applied Computer Science (Expected Graduation: 2027)</p>
+        </section>
 
-            <section id="skills" class="py-20 bg-gray-50">
-              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                  <div class="text-center mb-16">
-                      <h2 class="text-3xl font-bold text-gray-900 mb-4">My Skills</h2>
-                      <p class="text-gray-600 max-w-2xl mx-auto">Technologies I work with and my proficiency level</p>
-                      <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
-                  </div>
-                  
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                      <div>
-                          <h3 class="text-xl font-semibold text-gray-800 mb-6">Frontend Development</h3>
-                          <div class="space-y-6">
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">HTML/CSS</span>
-                                      <span class="text-gray-600">95%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 95%"></div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">JavaScript</span>
-                                      <span class="text-gray-600">90%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 90%"></div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">React</span>
-                                      <span class="text-gray-600">85%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 85%"></div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">Tailwind CSS</span>
-                                      <span class="text-gray-600">90%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 90%"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      
-                      <div>
-                          <h3 class="text-xl font-semibold text-gray-800 mb-6">Backend Development</h3>
-                          <div class="space-y-6">
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">Node.js</span>
-                                      <span class="text-gray-600">85%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 85%"></div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">Python</span>
-                                      <span class="text-gray-600">80%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 80%"></div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">MongoDB</span>
-                                      <span class="text-gray-600">75%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 75%"></div>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div class="flex justify-between mb-2">
-                                      <span class="font-medium text-gray-800">SQL</span>
-                                      <span class="text-gray-600">70%</span>
-                                  </div>
-                                  <div class="skill-bar">
-                                      <div class="skill-progress" style="width: 70%"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  
-                  <div class="mt-16">
-                      <h3 class="text-xl font-semibold text-gray-800 mb-8 text-center">Tools & Technologies</h3>
-                      <div class="flex flex-wrap justify-center gap-6">
-                          <div class="flex flex-col items-center">
-                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                  <i class="fab fa-git-alt text-3xl text-gray-700"></i>
-                              </div>
-                              <span class="text-sm text-gray-600">Git</span>
-                          </div>
-                          <div class="flex flex-col items-center">
-                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                  <i class="fab fa-github text-3xl text-gray-700"></i>
-                              </div>
-                              <span class="text-sm text-gray-600">GitHub</span>
-                          </div>
-                          <div class="flex flex-col items-center">
-                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                  <i class="fab fa-figma text-3xl text-gray-700"></i>
-                              </div>
-                              <span class="text-sm text-gray-600">Figma</span>
-                          </div>
-                          <div class="flex flex-col items-center">
-                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                  <i class="fab fa-docker text-3xl text-gray-700"></i>
-                              </div>
-                              <span class="text-sm text-gray-600">Docker</span>
-                          </div>
-                          <div class="flex flex-col items-center">
-                              <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                  <i class="fas fa-server text-3xl text-gray-700"></i>
-                              </div>
-                              <span class="text-sm text-gray-600">AWS</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
+
+        <section id="skills" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">My Skills</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Technologies I work with and my proficiency level</p>
+                    <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-6">Frontend Development</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">HTML/CSS</span>
+                                    <span class="text-gray-600">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">JavaScript</span>
+                                    <span class="text-gray-600">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">React</span>
+                                    <span class="text-gray-600">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">Tailwind CSS</span>
+                                    <span class="text-gray-600">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-6">Backend Development</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">Node.js</span>
+                                    <span class="text-gray-600">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">Python</span>
+                                    <span class="text-gray-600">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">MongoDB</span>
+                                    <span class="text-gray-600">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-gray-800">SQL</span>
+                                    <span class="text-gray-600">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-16">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-8 text-center">Tools & Technologies</h3>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                <i class="fab fa-git-alt text-3xl text-gray-700"></i>
+                            </div>
+                            <span class="text-sm text-gray-600">Git</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                <i class="fab fa-github text-3xl text-gray-700"></i>
+                            </div>
+                            <span class="text-sm text-gray-600">GitHub</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                <i class="fab fa-figma text-3xl text-gray-700"></i>
+                            </div>
+                            <span class="text-sm text-gray-600">Figma</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                <i class="fab fa-docker text-3xl text-gray-700"></i>
+                            </div>
+                            <span class="text-sm text-gray-600">Docker</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div
+                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                                <i class="fas fa-server text-3xl text-gray-700"></i>
+                            </div>
+                            <span class="text-sm text-gray-600">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="education">
             <h2><i>Education</i></h2>
             <ul>
                 <li><strong>Introduction to cyber security</strong> -Cisco Netcad(May 2024 - June 2024)</li>
                 <li><strong>AI Career Essentials</strong> - ALX (Sept 2024- Oct 2024)</li>
-                <li><strong>Bachelor's Degree in Applied Computer Science</strong> - Chuka University (Sep 2023 - expected graduation Oct 2027)</li>
+                <li><strong>Bachelor's Degree in Applied Computer Science</strong> - Chuka University (Sep 2023 -
+                    expected graduation Oct 2027)</li>
                 <li><strong>Software engineering Essentials</strong> -Power learning Project(Feb 2025-June 2025)</li>
             </ul>
         </section>
@@ -200,26 +215,30 @@
         <section id="experience">
             <h2><i>Experience</i></h2>
             <p><strong>Deal sourcing and Asset management </strong> - Colton Alexander (July 2024 -Sept 2024)</p>
-            <p><strong>IT  technician and Cybercafe Assistant </strong> Xtrill cybercafe and electronics (Feb 2023 - Jul 2023)</p>
+            <p><strong>IT technician and Cybercafe Assistant </strong> Xtrill cybercafe and electronics (Feb 2023 - Jul
+                2023)</p>
             <p><strong>Media team operator</strong> PCEA Gikuni church (Jan 2019-May 2022)</p>
             <p>Here is my CV that contains details of my education and work experience.</p>
-<a href="kevin's cv JIJO.pdf" target="_blank">
-    <button>My CV</button>
-</a>
+            <a href="src /kevin's cv JIJO.pdf" target="_blank">
+                <button
+                    class="bg-blue-600 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition duration-300">My
+                    CV</button>
+            </a>
         </section>
 
         <section id="projects">
             <H2><i>Projects</i></H2>
-            <p>Here is a link of my github where all of my projects are posted there and available for viewing and collaboration.
-                <div class="flex justify-between items-center">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition duration-300">View Projects</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-800 transition duration-300">
-                        <i class="fab fa-github"></i>
-                    </a>
+            <p>Here is a link of my github where all of my projects are posted there and available for viewing and
+                collaboration.
+            <div class="flex flex-col items-center">
+                <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                    <i class="fab fa-github text-3xl text-gray-700"></i>
                 </div>
+                <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600">GitHub</span></a>
+            </div>
             </p>
-            <br/>
-            
+            <br />
+
             <!--
             <div class="project-card bg-white rounded-lg overflow-hidden">
               <div class="relative overflow-hidden h-48">
@@ -243,127 +262,222 @@
                   </div>
               </div>
           </div>-->
-          <div  id ="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
+            <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Portfolio Website</h3>
+                    <p class="text-gray-600 mb-4">A responsive portfolio website showcasing my skills, projects, and
+                        contact information.</p>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                            <i class="fab fa-github text-3xl text-gray-700"></i>
+                        </div>
+                        <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                            project</a>
+                    </div>
+                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
+                    <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
+                </div>
+            </div>
+
             <div class="relative overflow-hidden h-48">
-                <img src="IMG_0493.jpg" alt="Portfolio Website",width = "25%" ,hieght = "25%">
+                <img src="src /IMG_0493.jpg" alt="Portfolio Website" ,width="25%" ,hieght="25%">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+
+                </div>
+            </div>
+
+            </div>
+            </div>
+            </div>
+            </br>
+            <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Buya musiq Discography</h3>
+                    <p class="text-gray-600 mb-4">A website to showcase Buya musiq's music,art and upcoming events. </p>
                     <div>
                         <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
                         <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
                     </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                            <i class="fab fa-github text-3xl text-gray-700"></i>
+                        </div>
+                        <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                            project</a>
+                    </div>
+                    <div class="relative overflow-hidden h-48">
+                        <img src="src /Screenshot from 2025-05-13 17-17-35.png" alt="Portfolio Website" ,width="25%"
+                            ,hieght="25%">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
+            </div>
+        
+        </br>
+        <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
             <div class="p-6">
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Portfolio Website</h3>
-                <p class="text-gray-600 mb-4">A responsive portfolio website showcasing my skills, projects, and contact information.</p>
-                <div class="flex justify-between items-center">
-                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition duration-300">View Project</a>
-                    <a href="https://github.com/kevinnjoroge-w/portfolio" class="text-gray-600 hover:text-gray-800 transition duration-300">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Timothy constructions</h3>
+                <p class="text-gray-600 mb-4">A business landing page of Timothy constructions </p>
+                <div>
+                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
+                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">tailwindcss</span>
+                    <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
                 </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                        <i class="fab fa-github text-3xl text-gray-700"></i>
+                    </div>
+                    <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                        project</a>
+                </div>
+                <div class="relative overflow-hidden h-48">
+                    <img src="src /IMG_0493.jpg" alt="Portfolio Website" ,width="25%" ,hieght="25%">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-            <p><strong><a href="https://github.com/kevinnjoroge-w">Github</a></strong></p>
+        </div>
+        </br>
+        <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Agroconnect</h3>
+                <p class="text-gray-600 mb-4">A webapp for farmers to sell thier products directly.(still under
+                    development)</p>
+                <div>
+                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
+                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">tailwindcss</span>
+                    <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
+                        <i class="fab fa-github text-3xl text-gray-700"></i>
+                    </div>
+                    <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                        project</a>
+                </div>
+                <div class="relative overflow-hidden h-48">
+                    <img src="src /IMG_0493.jpg" alt="Portfolio Website" ,width="25%" ,hieght="25%">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
         </section>
 
         <section id="contact">
             <h2><i>Contact</i></h2>
             <div class="contact-items">
                 <a href="mailto:kevinnjorogewanjiku@gmail.com" class="contact-link">
-                  <i class="fas fa-envelope icon"></i>
-                  <span>kevinnjorogewanjiku@gmail.com</span>
+                    <i class="fas fa-envelope icon"></i>
+                    <span>kevinnjorogewanjiku@gmail.com</span>
                 </a>
-                
+
                 <a href="tel:254114263750" class="contact-link">
-                  <i class="fas fa-phone icon"></i>
-                  <span>+254114263750</span>
+                    <i class="fas fa-phone icon"></i>
+                    <span>+254114263750</span>
                 </a>
-                
+
                 <div class="contact-link">
-                  <i class="fas fa-map-marker-alt icon"></i>
-                  <span>Nairobi,Kenya</span>
+                    <i class="fas fa-map-marker-alt icon"></i>
+                    <span>Nairobi,Kenya</span>
                 </div>
-              </div>
-              <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="contact-link" target="_blank">
+            </div>
+            <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="contact-link" target="_blank">
                 <i class="fab fa-linkedin fa-lg contact-icon"></i>
                 <span class="contact-text">Kevin Njoroge W</span> </a>
         </section>
 
         <!-- contact form-->
-        <section id = "contact"><h2>Contact me</h2>
+        <section id="contact">
+            <h2>Contact me</h2>
             <div class="background">
                 <div class="container">
-                  <div class="screen">
-                    <div class="screen-header">
-                      <div class="screen-header-left">
-                        <div class="screen-header-button close"></div>
-                        <div class="screen-header-button maximize"></div>
-                        <div class="screen-header-button minimize"></div>
-                      </div>
-                      <div class="screen-header-right">
-                        <div class="screen-header-ellipsis"></div>
-                        <div class="screen-header-ellipsis"></div>
-                        <div class="screen-header-ellipsis"></div>
-                      </div>
-                    </div>
-                    <div class="screen-body">
-                      <div class="screen-body-item left">
-                        <div class="app-title">
-                          <span>CONTACT</span>
-                          <span>US</span>
+                    <div class="screen">
+                        <div class="screen-header">
+                            <div class="screen-header-left">
+                                <div class="screen-header-button close"></div>
+                                <div class="screen-header-button maximize"></div>
+                                <div class="screen-header-button minimize"></div>
+                            </div>
+                            <div class="screen-header-right">
+                                <div class="screen-header-ellipsis"></div>
+                                <div class="screen-header-ellipsis"></div>
+                                <div class="screen-header-ellipsis"></div>
+                            </div>
                         </div>
-                        <div class="app-contact">CONTACT INFO : 254114263750</div>
-                      </div>
-                      <div class="screen-body-item">
-                        <div class="app-form">
-                          <div class="app-form-group">
-                            <input class="app-form-control" placeholder="NAME" >
-                          </div>
-                          <div class="app-form-group">
-                            <input class="app-form-control" placeholder="EMAIL">
-                          </div>
-                          <div class="app-form-group">
-                            <input class="app-form-control" placeholder="CONTACT NO">
-                          </div>
-                          <div class="app-form-group message">
-                            <input class="app-form-control" placeholder="MESSAGE">
-                          </div>
-                          <div class="app-form-group buttons">
-                            <button class="app-form-button">CANCEL</button>
-                            <button class="app-form-button">SEND</button>
-                          </div>
+                        <div class="screen-body">
+                            <div class="screen-body-item left">
+                                <div class="app-title">
+                                    <span>CONTACT</span>
+                                    <span>US</span>
+                                </div>
+                                <div class="app-contact">CONTACT INFO : 254114263750</div>
+                            </div>
+                            <div class="screen-body-item">
+                                <div class="app-form">
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="NAME">
+                                    </div>
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="EMAIL">
+                                    </div>
+                                    <div class="app-form-group">
+                                        <input class="app-form-control" placeholder="CONTACT NO">
+                                    </div>
+                                    <div class="app-form-group message">
+                                        <input class="app-form-control" placeholder="MESSAGE">
+                                    </div>
+                                    <div class="app-form-group buttons">
+                                        <button class="app-form-button">CANCEL</button>
+                                        <button class="app-form-button">SEND</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                  <div class="credits">
-                    inspired by
-                    <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
-                      <svg class="dribbble" viewBox="0 0 200 200">
-                        <g stroke="#ffffff" fill="none">
-                          <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-                          <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
-                          <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
-                          <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
-                        </g>
-                      </svg>
-                      Rue
-                    </a>
-                  </div>
+                    <div class="credits">
+                        inspired by   Rue
+                        <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
+                            <svg class="dribbble" viewBox="0 0 200 200">
+                                <g stroke="#ffffff" fill="none">
+                                    <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                                    <path
+                                        d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345"
+                                        stroke-width="20"></path>
+                                    <path
+                                        d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951"
+                                        stroke-width="20"></path>
+                                    <path
+                                        d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103"
+                                        stroke-width="20"></path>
+                                      
+                                </g>
+                            </svg>
+                          
+                        </a>
+                    </div>
                 </div>
-              </div>
-</div>        
+            </div>
+            </div>
 
         </section>
-        
+
 
     </main>
-    
+
 
     <!-- floating Footer -->
-      <footer class="bg-gray-900 text-white pt-12 pb-8">
+    <footer class="bg-gray-900 text-white pt-12 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center mb-8">
                 <div class="mb-6 md:mb-0">
@@ -377,17 +491,19 @@
                     <a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a>
                 </div>
             </div>
-            
+
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-400 mb-4 md:mb-0">© 2025 Kevin Njoroge. All rights reserved.</p>
                 <div class="flex space-x-4">
                     <a href="#" class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="text-gray-400 hover:text-white transition duration-300">
+                    <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/"
+                        class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="https://github.com/kevinnjoroge-w" class="text-gray-400 hover:text-white transition duration-300">
+                    <a href="https://github.com/kevinnjoroge-w"
+                        class="text-gray-400 hover:text-white transition duration-300">
                         <i class="fab fa-github"></i>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-white transition duration-300">
@@ -397,9 +513,10 @@
             </div>
         </div>
     </footer>
-   
 
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
