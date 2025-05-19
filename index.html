@@ -271,7 +271,7 @@
                         <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
                             <i class="fab fa-github text-3xl text-gray-700"></i>
                         </div>
-                        <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                        <a href="https://kevinnjoroge-w.github.io/portfolio/" class="text-sm text-gray-600"> View
                             project</a>
                     </div>
                     <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
@@ -302,7 +302,7 @@
                         <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
                             <i class="fab fa-github text-3xl text-gray-700"></i>
                         </div>
-                        <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                        <a href="https://buyamusiq.vercel.app/" class="text-sm text-gray-600"> View
                             project</a>
                     </div>
                     <div class="relative overflow-hidden h-48">
@@ -331,11 +331,11 @@
                     <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
                         <i class="fab fa-github text-3xl text-gray-700"></i>
                     </div>
-                    <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
+                    <a href="https://buildmaster-black.vercel.app/" class="text-sm text-gray-600"> View
                         project</a>
                 </div>
                 <div class="relative overflow-hidden h-48">
-                    <img src="src /IMG_0493.jpg" alt="Portfolio Website" ,width="25%" ,hieght="25%">
+                    <img src="src /timo.png" alt="Portfolio Website" ,width="25%" ,hieght="25%">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
 
                     </div>
@@ -363,7 +363,7 @@
                         project</a>
                 </div>
                 <div class="relative overflow-hidden h-48">
-                    <img src="src /IMG_0493.jpg" alt="Portfolio Website" ,width="25%" ,hieght="25%">
+                    <img src="src /Pasted image.png" alt="Portfolio Website" ,width="25%" ,hieght="25%">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
 
                     </div>
@@ -375,7 +375,7 @@
         </section>
 
         <section id="contact">
-            <h2><i>Contact</i></h2>
+            <h2><i>Contact Me</i></h2>
             <div class="contact-items">
                 <a href="mailto:kevinnjorogewanjiku@gmail.com" class="contact-link">
                     <i class="fas fa-envelope icon"></i>
@@ -399,7 +399,6 @@
 
         <!-- contact form-->
         <section id="contact">
-            <h2>Contact me</h2>
             <div class="background">
                 <div class="container">
                     <div class="screen">
@@ -515,7 +514,31 @@
     </footer>
 
 
-    <script src="script.js"></script>
+    <script>
+        // Smooth scrolling for navigation
+document.querySelector('a[href^="#"]').forEach(anchor=> {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    })
+})
+
+// Toggle navigation for mobile
+const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Here you would typically send the form data to your server
+                // For this example, we'll just show an alert
+                alert('Thank you for your message! I will get back to you soon.');
+                this.reset();
+            });
+        }
+
+    </script>
 
 </body>
 
