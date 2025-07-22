@@ -1,545 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Njoroge Resume website</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<header>
-    <!-- Floating Header (Navigation bar) -->
-    <nav>
-        <div class="Logo">
-            <h1>Kevin Njoroge W.</h1>         
-        </div>
-
-        <!-- Hamburger icon -->
-        <div class="hamburger" id="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-
-        <ul id="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>
-                <div class="hidden md:block">
-                    <a href="#contact"
-                        class="bg-blue-600 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition duration-300">Hire
-                        Me</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-</header>
-
-<body>
-    <main>
-        <section id="about">
-            <h2><i>About Me</i></h2>
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="md:w-1/2">
-                    <img src="src /IMG-20241230-WA0118.jpg" alt="kevin" class="rounded-xl shadow-2xl w-full h-auto">
-                </div>
-                <p>Kevin Njoroge Wanjiku is a motivated Computer Science student with strong expertise in frontend development
-                     and a growing proficiency in backend technologies. Equipped with tangible skills in cybersecurity, 
-                     Kevin is well-oriented in the dynamic world of computing and technology. Passionate about building user-friendly 
-                     and secure applications, he combines creativity with technical knowledge to deliver effective solutions. 
-                     Eager to expand his backend development skills and deepen his cybersecurity understanding, Kevin is committed to c
-                     ontinuous learning and contributing to innovative tech projects.</p>
-        </section>
-
-        <section id="Education">
-            <h2>Education backgroud</h2>
-            <p>I am currently enrolled in Chuka University studying a
-                B.Sc. in Applied Computer Science (Expected Graduation: 2027)</p>
-        </section>
-
-
-        <section id="skills" class="py-20 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl font-bold text-gray-900 mb-4">My Skills</h2>
-                    <p class="text-gray-600 max-w-2xl mx-auto">Technologies I work with and my proficiency level</p>
-                    <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-800 mb-6">Frontend Development</h3>
-                        <div class="space-y-6">
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">HTML/CSS</span>
-                                    <span class="text-gray-600">95%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">JavaScript</span>
-                                    <span class="text-gray-600">90%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">React</span>
-                                    <span class="text-gray-600">85%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">Tailwind CSS</span>
-                                    <span class="text-gray-600">90%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h3 class="text-xl font-semibold text-gray-800 mb-6">Backend Development</h3>
-                        <div class="space-y-6">
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">Node.js</span>
-                                    <span class="text-gray-600">85%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">Python</span>
-                                    <span class="text-gray-600">80%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">MongoDB</span>
-                                    <span class="text-gray-600">75%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-2">
-                                    <span class="font-medium text-gray-800">SQL</span>
-                                    <span class="text-gray-600">70%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 70%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-16">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-8 text-center">Tools & Technologies</h3>
-                    <div class="flex flex-wrap justify-center gap-6">
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                <i class="fab fa-git-alt text-3xl text-gray-700"></i>
-                            </div>
-                            <span class="text-sm text-gray-600">Git</span>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                <i class="fab fa-github text-3xl text-gray-700"></i>
-                            </div>
-                            <span class="text-sm text-gray-600">GitHub</span>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                <i class="fab fa-figma text-3xl text-gray-700"></i>
-                            </div>
-                            <span class="text-sm text-gray-600">Figma</span>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                <i class="fab fa-docker text-3xl text-gray-700"></i>
-                            </div>
-                            <span class="text-sm text-gray-600">Docker</span>
-                        </div>
-                        <div class="flex flex-col items-center">
-                            <div
-                                class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                                <i class="fas fa-server text-3xl text-gray-700"></i>
-                            </div>
-                            <span class="text-sm text-gray-600">AWS</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="education">
-            <h2><i>Education</i></h2>
-            <ul>
-                <li><strong>Introduction to cyber security</strong> -Cisco Netcad(May 2024 - June 2024)</li>
-                <li><strong>AI Career Essentials</strong> - ALX (Sept 2024- Oct 2024)</li>
-                <li><strong>Bachelor's Degree in Applied Computer Science</strong> - Chuka University (Sep 2023 -
-                    expected graduation Oct 2027)</li>
-                <li><strong>Software engineering Essentials</strong> -Power learning Project(Feb 2025-June 2025)</li>
-            </ul>
-        </section>
-
-        <section id="experience">
-            <h2><i>Experience</i></h2>
-            <p><strong>Deal sourcing and Asset management </strong> - Colton Alexander (July 2024 -Sept 2024)</p>
-            <p><strong>IT technician and Cybercafe Assistant </strong> Xtrill cybercafe and electronics (Feb 2023 - Jul
-                2023)</p>
-            <p><strong>Media team operator</strong> PCEA Gikuni church (Jan 2019-May 2022)</p>
-            <p>Here is my CV that contains details of my education and work experience.</p>
-            <a href="src /kevin's cv JIJO.pdf" target="_blank">
-                <button
-                    class="bg-blue-600 text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition duration-300">My
-                    CV</button>
-            </a>
-        </section>
-
-        <section id="projects">
-            <H2><i>Projects</i></H2>
-            <p>Here is a link of my github where all of my projects are posted there and available for viewing and
-                collaboration.
-            <div class="flex flex-col items-center">
-                <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                    <i class="fab fa-github text-3xl text-gray-700"></i>
-                </div>
-                <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600">GitHub</span></a>
-            </div>
-            </p>
-            <br />
-
-            <!--
-            <div class="project-card bg-white rounded-lg overflow-hidden">
-              <div class="relative overflow-hidden h-48">
-                  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Cruise" class="w-full h-full object-cover">
-                  <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                      <div>
-                          <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">React</span>
-                          <span class="bg-purple-600 text-white text-xs px-2 py-1 rounded ml-2">Node.js</span>
-                      </div>
-                  </div>
-              </div>
-              
-              <div class="p-6">
-                  <h3 class="text-xl font-semibold text-gray-800 mb-2">Cruise </h3>
-                  <p class="text-gray-600 mb-4">A comprehensive student management system that allows students to plan and balance school life and social life without strain</p>
-                  <div class="flex justify-between items-center">
-                      <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition duration-300">View Project</a>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 transition duration-300">
-                          <i class="fab fa-github"></i>
-                      </a>
-                  </div>
-              </div>
-          </div>-->
-            <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Portfolio Website</h3>
-                    <p class="text-gray-600 mb-4">A responsive portfolio website showcasing my skills, projects, and
-                        contact information.</p>
-                    <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                            <i class="fab fa-github text-3xl text-gray-700"></i>
-                        </div>
-                        <a href="https://kevinnjoroge-w.github.io/portfolio/" class="text-sm text-gray-600"> View
-                            project</a>
-                    </div>
-                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
-                    <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
-                </div>
-            </div>
-
-            <div class="relative overflow-hidden h-48">
-                <img src="src /IMG_0493.jpg" alt="Portfolio Website" ,width="25%" ,hieght="25%">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-
-                </div>
-            </div>
-
-            </div>
-            </div>
-            </div>
-            </br>
-            <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Buya musiq Discography</h3>
-                    <p class="text-gray-600 mb-4">A website to showcase Buya musiq's music,art and upcoming events. </p>
-                    <div>
-                        <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
-                        <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                            <i class="fab fa-github text-3xl text-gray-700"></i>
-                        </div>
-                        <a href="https://buyamusiq.vercel.app/" class="text-sm text-gray-600"> View
-                            project</a>
-                    </div>
-                    <div class="relative overflow-hidden h-48">
-                        <img src="src /Screenshot from 2025-05-13 17-17-35.png" alt="Portfolio Website" ,width="25%"
-                            ,hieght="25%">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            </div>
+    <style>
+        /* Custom styles */
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #1e40af;
+            --accent: #374151;
+            --dark: #111827;
+            --light: #374151;
+        }
         
-        </br>
-        <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
-            <div class="p-6">
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Timothy constructions</h3>
-                <p class="text-gray-600 mb-4">A business landing page of Timothy constructions </p>
-                <div>
-                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
-                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">tailwindcss</span>
-                    <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fab fa-github text-3xl text-gray-700"></i>
-                    </div>
-                    <a href="https://buildmaster-black.vercel.app/" class="text-sm text-gray-600"> View
-                        project</a>
-                </div>
-                <div class="relative overflow-hidden h-48">
-                    <img src="src /timo.png" alt="Portfolio Website" ,width="25%" ,hieght="25%">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #0a0a0a;
+            overflow-x: hidden;
+        }
+        
+        /* Animated background */
+        .animated-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-color: #0f172a; /* navy */
+            animation: switchBg 6s infinite;
+        }
 
-                    </div>
+        @keyframes switchBg {
+            0%, 100% { background-color: #0f172a; }   /* navy */
+            50%      { background-color: #1a1a1a; }      /* charcoal */
+        }
+        
+        /* Glass morphism effect */
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        
+        /* Hover effects */
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Typing animation */
+        .typewriter {
+            overflow: hidden;
+            border-right: 0.15em solid var(--accent);
+            white-space: nowrap;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+        
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: var(--accent) }
+        }
+        
+        /* Particle effect */
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            animation: float 20s infinite linear;
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--secondary);
+        }
+        
+        /* Skill progress animation */
+        .skill-progress {
+            transition: width 2s ease-in-out;
+        }
+        
+        /* Section reveal animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.6s ease;
+        }
+        
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="animated-bg"></div>
+    
+    <header class="fixed top-0 w-full z-50 glass">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="Logo">
+                    <h1 class="text-2xl font-bold text-white typewriter">Kevin Njoroge W.</h1>
                 </div>
-
+                
+                <div class="hamburger md:hidden" id="hamburger">
+                    <span class="bar bg-white"></span>
+                    <span class="bar bg-white"></span>
+                    <span class="bar bg-white"></span>
+                </div>
+                
+                <ul id="nav-list" class="hidden md:flex items-center space-x-8">
+                    <li><a href="#about" class="text-white hover:text-yellow-300 transition">About</a></li>
+                    <li><a href="#skills" class="text-white hover:text-yellow-300 transition">Skills</a></li>
+                    <li><a href="#education" class="text-white hover:text-yellow-300 transition">Education</a></li>
+                    <li><a href="#experience" class="text-white hover:text-yellow-300 transition">Experience</a></li>
+                    <li><a href="#projects" class="text-white hover:text-yellow-300 transition">Projects</a></li>
+                    <li><a href="#contact" class="bg-yellow-500 text-gray-900 px-6 py-2 rounded-full font-semibold hover:bg-yellow-400 transition">Hire Me</a></li>
+                </ul>
             </div>
-        </div>
-        </div>
-        </br>
-        <div id="portfolio" class="project-card bg-white rounded-lg overflow-hidden">
-            <div class="p-6">
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Agroconnect</h3>
-                <p class="text-gray-600 mb-4">A webapp for farmers to sell thier products directly.(still under
-                    development)</p>
-                <div>
-                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">HTML/CSS</span>
-                    <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded">tailwindcss</span>
-                    <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded ml-2">JavaScript</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center mb-2">
-                        <i class="fab fa-github text-3xl text-gray-700"></i>
-                    </div>
-                    <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-sm text-gray-600"> View
-                        project</a>
-                </div>
-                <div class="relative overflow-hidden h-48">
-                    <img src="src /Pasted image.png" alt="Portfolio Website" ,width="25%" ,hieght="25%">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+        </nav>
+    </header>
 
+    <main class="pt-20">
+        <section id="about" class="py-20 reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">
+                    <i class="fas fa-user-circle mr-2"></i>About Me
+                </h2>
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <div class="relative group">
+                            <img src="src /IMG-20241230-WA0118.jpg" alt="kevin" class="rounded-2xl  w-64 h-64 transform group-hover:scale-105 transition duration-300 justify-self-center">
+                            <div class="absolute inset-0 bg-gradient-to-t from-purple-500 to-transparent opacity-0 group-hover:opacity-50 transition duration-300 rounded-2xl"></div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="glass p-8 rounded-2xl">
+                            <p class="text-lg text-white leading-relaxed">
+                                Kevin Njoroge Wanjiku is a motivated Computer Science student with strong expertise in frontend development
+                                and a growing proficiency in backend technologies. Equipped with tangible skills in cybersecurity,
+                                Kevin is well-oriented in the dynamic world of computing and technology. Passionate about building user-friendly
+                                and secure applications, he combines creativity with technical knowledge to deliver effective solutions.
+                                Eager to expand his backend development skills and deepen his cybersecurity understanding, Kevin is committed to
+                                continuous learning and contributing to innovative tech projects.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
             </div>
-        </div>
-        </div>
         </section>
 
-        <section id="contact">
-            <h2><i>Contact Me</i></h2>
-            <div class="contact-items">
-                <a href="mailto:kevinnjorogewanjiku@gmail.com" class="contact-link">
-                    <i class="fas fa-envelope icon"></i>
-                    <span>kevinnjorogewanjiku@gmail.com</span>
-                </a>
-
-                <a href="tel:254114263750" class="contact-link">
-                    <i class="fas fa-phone icon"></i>
-                    <span>+254114263750</span>
-                </a>
-
-                <div class="contact-link">
-                    <i class="fas fa-map-marker-alt icon"></i>
-                    <span>Nairobi,Kenya</span>
+        <section id="Education" class="py-20 reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">
+                    <i class="fas fa-graduation-cap mr-2"></i>Education
+                </h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-2xl font-bold text-white mb-4">Bachelor's Degree</h3>
+                        <p class="text-white">Applied Computer Science - Chuka University</p>
+                        <p class="text-yellow-300">Sep 2023 - Expected Nov 2027</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-4">Certifications</h3>
+                        <ul class="text-white space-y-2">
+                            <li><i class="fas fa-certificate text-yellow-300 mr-2"></i>Introduction to Cyber Security - Cisco Netcad</li>
+                            <li><i class="fas fa-certificate text-yellow-300 mr-2"></i>AI Career Essentials - ALX</li>
+                            <li><i class="fas fa-certificate text-yellow-300 mr-2"></i>Software Engineering Essentials - Power Learning Project</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="contact-link" target="_blank">
-                <i class="fab fa-linkedin fa-lg contact-icon"></i>
-                <span class="contact-text">Kevin Njoroge W</span> </a>
         </section>
 
-        <!-- contact form-->
-        <section id="contact">
-            <div class="background">
-                <div class="container">
-                    <div class="screen">
-                        <div class="screen-header">
-                            <div class="screen-header-left">
-                                <div class="screen-header-button close"></div>
-                                <div class="screen-header-button maximize"></div>
-                                <div class="screen-header-button minimize"></div>
-                            </div>
-                            <div class="screen-header-right">
-                                <div class="screen-header-ellipsis"></div>
-                                <div class="screen-header-ellipsis"></div>
-                                <div class="screen-header-ellipsis"></div>
-                            </div>
-                        </div>
-                        <div class="screen-body">
-                            <div class="screen-body-item left">
-                                <div class="app-title">
-                                    <span>CONTACT</span>
-                                    <span>US</span>
+        <section id="skills" class="py-20 reveal">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white mb-4">
+                        <i class="fas fa-code mr-2"></i>My Skills
+                    </h2>
+                    <p class="text-white max-w-2xl mx-auto">Technologies I work with and my proficiency level</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="glass p-8 rounded-2xl">
+                        <h3 class="text-2xl font-bold text-white mb-6 text-center">
+                            <i class="fas fa-laptop-code mr-2"></i>Frontend Development
+                        </h3>
+                        <div class="space-y-6">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">HTML/CSS</span>
+                                    <span class="text-yellow-300">95%</span>
                                 </div>
-                                <div class="app-contact">CONTACT INFO : 254114263750</div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 95%"></div>
+                                </div>
                             </div>
-                            <div class="screen-body-item">
-                                <div class="app-form">
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="NAME">
-                                    </div>
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="EMAIL">
-                                    </div>
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="CONTACT NO">
-                                    </div>
-                                    <div class="app-form-group message">
-                                        <input class="app-form-control" placeholder="MESSAGE">
-                                    </div>
-                                    <div class="app-form-group buttons">
-                                        <button class="app-form-button">CANCEL</button>
-                                        <button class="app-form-button">SEND</button>
-                                    </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">JavaScript</span>
+                                    <span class="text-yellow-300">90%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">React</span>
+                                    <span class="text-yellow-300">85%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">Tailwind CSS</span>
+                                    <span class="text-yellow-300">90%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full" style="width: 90%"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="credits">
-                        inspired by   Rue
-                        <a class="credits-link" href="https://dribbble.com/shots/2666271-Contact" target="_blank">
-                            <svg class="dribbble" viewBox="0 0 200 200">
-                                <g stroke="#ffffff" fill="none">
-                                    <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
-                                    <path
-                                        d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345"
-                                        stroke-width="20"></path>
-                                    <path
-                                        d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951"
-                                        stroke-width="20"></path>
-                                    <path
-                                        d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103"
-                                        stroke-width="20"></path>
-                                      
-                                </g>
-                            </svg>
-                          
+                    
+                    <div class="glass p-8 rounded-2xl">
+                        <h3 class="text-2xl font-bold text-white mb-6 text-center">
+                            <i class="fas fa-server mr-2"></i>Backend Development
+                        </h3>
+                        <div class="space-y-6">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">Node.js</span>
+                                    <span class="text-yellow-300">85%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">Python</span>
+                                    <span class="text-yellow-300">80%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">MongoDB</span>
+                                    <span class="text-yellow-300">75%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="font-medium text-white">SQL</span>
+                                    <span class="text-yellow-300">70%</span>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-2">
+                                    <div class="skill-progress bg-gradient-to-r from-green-500 to-blue-500 h-2 rounded-full" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-20 reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">
+                    <i class="fas fa-briefcase mr-2"></i>Experience
+                </h2>
+                <div class="space-y-8">
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-2">Deal sourcing and Asset management</h3>
+                        <p class="text-yellow-300 mb-2">Colton Alexander</p>
+                        <p class="text-white">July 2024 - Sept 2024</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-2">IT technician and Cybercafe Assistant</h3>
+                        <p class="text-yellow-300 mb-2">Xtrill cybercafe and electronics</p>
+                        <p class="text-white">Feb 2023 - Jul 2023</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-2">Media team operator</h3>
+                        <p class="text-yellow-300 mb-2">PCEA Gikuni church</p>
+                        <p class="text-white">Jan 2019 - May 2022</p>
+                    </div>
+                    <div class="text-center mt-8">
+                        <a href="src /kevin's cv JIJO.pdf" target="_blank">
+                            <button class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-8 py-3 rounded-full font-bold hover:from-yellow-500 hover:to-orange-600 transition duration-300 transform hover:scale-105">
+                                <i class="fas fa-download mr-2"></i>Download My CV
+                            </button>
                         </a>
                     </div>
                 </div>
             </div>
-            </div>
-
         </section>
 
-
-    </main>
-
-
-    <!-- floating Footer -->
-    <footer class="bg-gray-900 text-white pt-12 pb-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
-                <div class="mb-6 md:mb-0">
-                    <span class="text-blue-600 font-bold text-2xl">Kevin Njoroge</span>
-                </div>
-                <div class="flex space-x-6">
-                    <a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a>
-                    <a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a>
-                    <a href="#skills" class="text-gray-400 hover:text-white transition duration-300">Skills</a>
-                    <a href="#projects" class="text-gray-400 hover:text-white transition duration-300">Projects</a>
-                    <a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a>
+        <section id="projects" class="py-20 reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">
+                    <i class="fas fa-project-diagram mr-2"></i>Projects
+                </h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-4">Portfolio Website</h3>
+                        <p class="text-white mb-4">A responsive portfolio website showcasing my skills, projects, and contact information.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">HTML/CSS</span>
+                            <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        </div>
+                        <a href="https://kevinnjoroge-w.github.io/portfolio/" class="text-yellow-300 hover:text-yellow-200 transition">
+                            <i class="fab fa-github mr-2"></i>View Project
+                        </a>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-4">Buya musiq Discography</h3>
+                        <p class="text-white mb-4">A website to showcase Buya musiq's music, art and upcoming events.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">HTML/CSS</span>
+                            <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        </div>
+                        <a href="https://buyamusiq.vercel.app/" class="text-yellow-300 hover:text-yellow-200 transition">
+                            <i class="fab fa-github mr-2"></i>View Project
+                        </a>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-4">Timothy constructions</h3>
+                        <p class="text-white mb-4">A business landing page of Timothy constructions</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">HTML/CSS</span>
+                            <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm">Tailwind</span>
+                            <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        </div>
+                        <a href="https://buildmaster-black.vercel.app/" class="text-yellow-300 hover:text-yellow-200 transition">
+                            <i class="fab fa-github mr-2"></i>View Project
+                        </a>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="glass p-6 rounded-2xl hover-lift">
+                        <h3 class="text-xl font-bold text-white mb-4">Agroconnect</h3>
+                        <p class="text-white mb-4">A webapp for farmers to sell their products directly. (still under development)</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">HTML/CSS</span>
+                            <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm">Tailwind</span>
+                            <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/kevinnjoroge-w/portfolios" class="text-yellow-300 hover:text-yellow-200 transition">
+                            <i class="fab fa-github mr-2"></i>View Project
+                        </a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 mb-4 md:mb-0">© 2025 Kevin Njoroge. All rights reserved.</p>
-                <div class="flex space-x-4">
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-twitter"></i>
+        <section id="contact" class="py-20 reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">
+                    <i class="fas fa-envelope mr-2"></i>Contact Me
+                </h2>
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="glass p-8 rounded-2xl">
+                            <h3 class="text-2xl font-bold text-white mb-6">Get In Touch</h3>
+                            <div class="space-y-4">
+                                <a href="mailto:kevinnjorogewanjiku@gmail.com" class="flex items-center text-white hover:text-yellow-300 transition">
+                                    <i class="fas fa-envelope mr-3 text-yellow-300"></i>
+                                    <span>kevinnjorogewanjiku@gmail.com</span>
+                                </a>
+                                <a href="tel:254114263750" class="flex items-center text-white hover:text-yellow-300 transition">
+                                    <i class="fas fa-phone mr-3 text-yellow-300"></i>
+                                    <span>+254114263750</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="flex items-center text-white hover:text-yellow-300 transition">
+                                    <i class="fab fa-linkedin mr-3 text-yellow-300"></i>
+                                    <span>Kevin Njoroge W</span>
+                                </a>
+                                <a href="https://github.com/kevinnjoroge-w" class="flex items-center text-white hover:text-yellow-300 transition">
+                                    <i class="fab fa-github mr-3 text-yellow-300"></i>
+                                    <span>Kevin Njoroge W</span>
+                                </a>
+                                <div class="flex items-center text-white">
+                                    <i class="fas fa-map-marker-alt mr-3 text-yellow-300"></i>
+                                    <span>Nairobi, Kenya</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="glass p-8 rounded-2xl">
+                            <h3 class="text-2xl font-bold text-white mb-6">Send a Message</h3>
+                            <form class="space-y-4">
+                                <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-300">
+                                <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-300">
+                                <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-300"></textarea>
+                                <button type="submit" class="w-full bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-6 py-3 rounded-lg font-bold hover:from-yellow-500 hover:to-orange-600 transition duration-300">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-4">Kevin Njoroge</h3>
+                <div class="flex justify-center space-x-6 mb-4">
+                    <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-linkedin text-2xl"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/"
-                        class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-linkedin-in"></i>
+                    <a href="https://github.com/kevinnjoroge-w" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-github text-2xl"></i>
                     </a>
-                    <a href="https://github.com/kevinnjoroge-w"
-                        class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-github"></i>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-twitter text-2xl"></i>
                     </a>
-                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                        <i class="fab fa-instagram"></i>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram text-2xl"></i>
                     </a>
                 </div>
+                <p class="text-gray-400">&copy; 2025 Kevin Njoroge. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-
     <script>
-        // Smooth scrolling for navigation
-document.querySelector('a[href^="#"]').forEach(anchor=> {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+        // Add particles
+        function createParticles() {
+            const particlesContainer = document.createElement('div');
+            particlesContainer.className = 'particles';
+            document.body.appendChild(particlesContainer);
+            
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (Math.random() * 20 + 10) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+        
+        createParticles();
+        
+        // Scroll reveal
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.reveal');
+            
+            reveals.forEach(reveal => {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveal.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    reveal.classList.add('active');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', revealOnScroll);
+        
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
         });
-    })
-})
-
-// Toggle navigation for mobile
-const contactForm = document.querySelector('form');
+        
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navList = document.getElementById('nav-list');
+        
+        hamburger.addEventListener('click', () => {
+            navList.classList.toggle('hidden');
+            navList.classList.toggle('flex');
+            navList.classList.toggle('flex-col');
+            navList.classList.toggle('absolute');
+            navList.classList.toggle('top-16');
+            navList.classList.toggle('right-6');
+            navList.classList.toggle('bg-gray-900');
+            navList.classList.toggle('p-4');
+            navList.classList.toggle('rounded-lg');
+        });
+        
+        // Form submission
+        const contactForm = document.querySelector('form');
         if (contactForm) {
             contactForm.addEventListener('submit', function(e) {
                 e.preventDefault();
-                
-                // Here you would typically send the form data to your server
-                // For this example, we'll just show an alert
                 alert('Thank you for your message! I will get back to you soon.');
                 this.reset();
             });
         }
-
+        
+        // Animate skill bars on scroll
+        const observerOptions = {
+            threshold: 0.7
+        };
+        
+        const skillObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillBars = entry.target.querySelectorAll('.skill-progress');
+                    skillBars.forEach(bar => {
+                        const width = bar.style.width;
+                        bar.style.width = '0';
+                        setTimeout(() => {
+                            bar.style.width = width;
+                        }, 100);
+                    });
+                }
+            });
+        }, observerOptions);
+        
+        const skillsSection = document.querySelector('#skills');
+        if (skillsSection) {
+            skillObserver.observe(skillsSection);
+        }
     </script>
-
 </body>
-
 </html>
