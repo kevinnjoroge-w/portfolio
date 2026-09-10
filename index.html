@@ -2,52 +2,283 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kevin Njoroge — Portfolio</title>
-   <!-- SEO Meta Tags -->
-   <meta name="description" content="Kevin Njoroge — software developer portfolio showcasing projects, skills, and experience in web development and software engineering." />
-   <meta name="keywords" content="Kevin Njoroge, portfolio, web development, software engineer, projects, developer" />
-   <meta name="author" content="Kevin Njoroge" />
-   <meta name="robots" content="index, follow" />
-   <meta name="theme-color" content="#ffffff" />
-   
-   <!-- Open Graph Tags for Social Media Sharing -->
-   <meta property="og:type" content="website" />
-   <meta property="og:title" content="Kevin Njoroge — Portfolio" />
-   <meta property="og:description" content="Kevin Njoroge — software developer portfolio showcasing projects, skills, and experience in web development and software engineering." />
-   <meta property="og:image" content="https://kevinnjoroge-w.github.io/portfolio/og-image.jpg" />
-   <meta property="og:url" content="https://kevinnjoroge-w.github.io/portfolio/" />
-   
-   <!-- Twitter Card Tags -->
-   <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:title" content="Kevin Njoroge — Portfolio" />
-   <meta name="twitter:description" content="Kevin Njoroge — software developer portfolio showcasing projects, skills, and experience in web development and software engineering." />
-   <meta name="twitter:image" content="https://kevinnjoroge-w.github.io/portfolio/og-image.jpg" />
-   
-   <!-- Canonical URL -->
-   <link rel="canonical" href="https://kevinnjoroge-w.github.io/portfolio/" />
-   
-   <!-- Structured Data (Schema.org) -->
-   <script type="application/ld+json">
-   {
-     "@context": "https://schema.org",
-     "@type": "Person",
-     "name": "Kevin Njoroge",
-     "jobTitle": "Software Developer",
-     "url": "https://kevinnjoroge-w.github.io/portfolio/",
-    "sameAs": [
-       "https://www.linkedin.com/in/kevin-njoroge-560674279/",
-       "https://github.com/kevinnjoroge-w"
-     ]
-   }
-   </script>
-    <script type="module" crossorigin src="/assets/index-BBbJ-4ut.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DFkpuhw7.css">
+
+    <!-- SEO -->
+    <meta name="description" content="Kevin Njoroge — Computer Science student & full-stack developer. Portfolio of web, AI and AgriTech projects." />
+    <meta name="author" content="Kevin Njoroge" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kevin Njoroge — Portfolio" />
+    <meta property="og:description" content="Computer Science student & full-stack developer. Web, AI and AgriTech projects." />
+    <meta property="og:url" content="https://kevinnjoroge-w.github.io/portfolio/" />
+    <link rel="canonical" href="https://kevinnjoroge-w.github.io/portfolio/" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kevin Njoroge",
+        "jobTitle": "Software Developer",
+        "url": "https://kevinnjoroge-w.github.io/portfolio/",
+        "sameAs": [
+          "https://www.linkedin.com/in/kevin-njoroge-560674279/",
+          "https://github.com/kevinnjoroge-w"
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-      <main class="pt-24">
-    <div id="root"></div>
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a href="#home" class="nav__brand">Kevin Njoroge</a>
+        <nav class="nav__links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn--primary btn--sm nav__cta">Get In Touch</a>
+        </nav>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="hero">
+        <div class="container hero__inner">
+          <div class="hero__photo">
+            <div class="hero__photo-glow"></div>
+            <img src="./IMG-20241230-WA0118.jpg" alt="Kevin Njoroge" loading="eager" />
+          </div>
+          <h1 class="hero__name">Kevin Njoroge</h1>
+          <h2 class="hero__role">Computer Science Student &amp; Full-Stack Developer</h2>
+          <p class="hero__tagline">"Just keep coding, just keep coding!!" — I build web, AI and AgriTech products from Nairobi, Kenya.</p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+          </div>
+          <div class="hero__socials">
+            <a href="https://github.com/kevinnjoroge-w" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="./Kevin-Njoroge-CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section__title">About Me</h2>
+          <div class="about">
+            <div class="about__text glass-card">
+              <p>
+                I'm a Computer Science student at Chuka University and a full-stack developer who enjoys
+                turning ideas into working products. My recent work spans AI prototypes, AgriTech platforms
+                that connect farmers to markets, and business websites for real clients.
+              </p>
+              <p>
+                I care about clean, accessible interfaces and shipping things people actually use. When I'm
+                not in class, you'll usually find me building something on GitHub.
+              </p>
+              <ul class="about__facts">
+                <li><strong>📍 Location</strong> Nairobi, Kenya</li>
+                <li><strong>🎓 Studying</strong> Applied Computer Science</li>
+                <li><strong>💼 Open to</strong> Internships &amp; freelance</li>
+              </ul>
+            </div>
+            <div class="about__side">
+              <div class="glass-card">
+                <h3 class="card__title">🎓 Education</h3>
+                <div class="edu-item">
+                  <p class="edu-item__title">Bachelor's Degree — Applied Computer Science</p>
+                  <p class="edu-item__org">Chuka University</p>
+                  <p class="edu-item__date">Sep 2023 — Expected Nov 2027</p>
+                </div>
+              </div>
+              <div class="glass-card">
+                <h3 class="card__title">📜 Certifications</h3>
+                <ul class="cert-list">
+                  <li>Responsive Web Design — freeCodeCamp</li>
+                  <li>JavaScript Algorithms &amp; Data Structures</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section section--alt">
+        <div class="container">
+          <h2 class="section__title">My Skills</h2>
+          <div class="skills">
+            <div class="glass-card skills__col">
+              <h3 class="card__title">Frontend Development</h3>
+              <div class="bar" data-level="95"><div class="bar__head"><span>HTML / CSS</span><span>95%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+              <div class="bar" data-level="90"><div class="bar__head"><span>JavaScript</span><span>90%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+              <div class="bar" data-level="85"><div class="bar__head"><span>React</span><span>85%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+              <div class="bar" data-level="90"><div class="bar__head"><span>Tailwind CSS</span><span>90%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+            </div>
+            <div class="glass-card skills__col">
+              <h3 class="card__title">Backend Development</h3>
+              <div class="bar" data-level="85"><div class="bar__head"><span>Node.js</span><span>85%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+              <div class="bar" data-level="80"><div class="bar__head"><span>Python</span><span>80%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+              <div class="bar" data-level="75"><div class="bar__head"><span>MongoDB</span><span>75%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+              <div class="bar" data-level="70"><div class="bar__head"><span>SQL</span><span>70%</span></div><div class="bar__track"><div class="bar__fill"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h2 class="section__title">Experience</h2>
+          <div class="timeline">
+            <div class="timeline__item glass-card">
+              <div class="timeline__head">
+                <h3>Junior Frontend Developer &amp; IT Support</h3>
+                <span class="timeline__date">May 2025 — Sept 2025</span>
+              </div>
+              <p class="timeline__org">Jossie Construction Limited</p>
+            </div>
+            <div class="timeline__item glass-card">
+              <div class="timeline__head">
+                <h3>Deal Sourcing &amp; Asset Management</h3>
+                <span class="timeline__date">July 2024 — Sept 2024</span>
+              </div>
+              <p class="timeline__org">Colton Alexander</p>
+            </div>
+            <div class="timeline__item glass-card">
+              <div class="timeline__head">
+                <h3>IT Technician &amp; Cybercafé Assistant</h3>
+                <span class="timeline__date">Feb 2023 — Jul 2023</span>
+              </div>
+              <p class="timeline__org">Xtrill Cybercafe and Electronics</p>
+            </div>
+            <div class="timeline__item glass-card">
+              <div class="timeline__head">
+                <h3>Media Team Operator</h3>
+                <span class="timeline__date">Jan 2019 — May 2022</span>
+              </div>
+              <p class="timeline__org">PCEA Gikuni Church</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section section--alt">
+        <div class="container">
+          <h2 class="section__title">My Projects</h2>
+          <div class="grid">
+            <article class="glass-card project">
+              <h4 class="project__title">Jossie Construction Limited</h4>
+              <p class="project__desc">A website for Jossie Construction Limited.</p>
+              <div class="project__tags"><span class="tag">React.js</span><span class="tag">Tailwind</span><span class="tag">JavaScript</span></div>
+              <div class="project__links"><a href="https://www.jossieconstructionltd.co.ke/" target="_blank" rel="noopener">Live ↗</a></div>
+            </article>
+            <article class="glass-card project">
+              <h4 class="project__title">Flowtastic Plumbing Solutions</h4>
+              <p class="project__desc">A business landing page for Flowtastic Plumbing Solutions.</p>
+              <div class="project__tags"><span class="tag">React.js</span><span class="tag">Tailwind</span><span class="tag">JavaScript</span></div>
+              <div class="project__links"><a href="https://flowtasticplumbing.co.ke/" target="_blank" rel="noopener">Live ↗</a></div>
+            </article>
+            <article class="glass-card project">
+              <h4 class="project__title">Buya Musiq Discography</h4>
+              <p class="project__desc">A website to showcase Buya Musiq's music, art and upcoming events.</p>
+              <div class="project__tags"><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span></div>
+              <div class="project__links"><a href="https://buyamusiq.vercel.app/" target="_blank" rel="noopener">Live ↗</a></div>
+            </article>
+            <article class="glass-card project">
+              <h4 class="project__title">KilimoAI</h4>
+              <p class="project__desc">An MVP that helps farmers and consumers understand market trends.</p>
+              <div class="project__tags"><span class="tag">AgriTech</span><span class="tag">AI</span></div>
+              <div class="project__links"><a href="https://github.com/kevinnjoroge-w/kilimoai" target="_blank" rel="noopener">Code ↗</a></div>
+            </article>
+            <article class="glass-card project">
+              <h4 class="project__title">Agroconnect</h4>
+              <p class="project__desc">A web app for farmers to sell their products directly (under development).</p>
+              <div class="project__tags"><span class="tag">React.js</span><span class="tag">Tailwind</span><span class="tag">JavaScript</span></div>
+              <div class="project__links"><a href="https://github.com/kevinnjoroge-w" target="_blank" rel="noopener">GitHub ↗</a></div>
+            </article>
+            <article class="glass-card project">
+              <h4 class="project__title">Portfolio Website</h4>
+              <p class="project__desc">This site — built with plain HTML, CSS and JavaScript.</p>
+              <div class="project__tags"><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span></div>
+              <div class="project__links"><a href="https://github.com/kevinnjoroge-w/portfolio" target="_blank" rel="noopener">Code ↗</a></div>
+            </article>
+          </div>
+
+          <!-- Commit activity -->
+          <div class="glass-card commits">
+            <div class="commits__head">
+              <h3 class="card__title">Commit Activity</h3>
+              <a href="https://github.com/kevinnjoroge-w" target="_blank" rel="noopener" class="commits__link">View on GitHub ↗</a>
+            </div>
+            <p class="commits__sub">Last 12 months of contributions</p>
+            <div class="heatmap" id="heatmap"><p class="heatmap__loading">Loading commits…</p></div>
+            <div class="heatmap__legend">
+              <span>Less</span>
+              <span class="hm hm-0"></span><span class="hm hm-1"></span><span class="hm hm-2"></span><span class="hm hm-3"></span><span class="hm hm-4"></span>
+              <span>More</span>
+            </div>
+          </div>
+
+          <!-- Live repos -->
+          <h3 class="section__subtitle">📦 Everything on GitHub</h3>
+          <p class="section__hint">Pulled live from <a href="https://github.com/kevinnjoroge-w" target="_blank" rel="noopener">github.com/kevinnjoroge-w</a> — always in sync.</p>
+          <div class="grid" id="repos"><p class="repos__loading">Loading repositories…</p></div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section__title">Get In Touch</h2>
+          <div class="contact">
+            <div class="glass-card contact__info">
+              <h3 class="card__title">Contact Information</h3>
+              <ul class="contact__list">
+                <li><span>✉️</span> <a href="mailto:kevinnjorogewanjiku@gmail.com">kevinnjorogewanjiku@gmail.com</a></li>
+                <li><span>📞</span> <a href="tel:+254114263750">+254 114 263 750</a></li>
+                <li><span>📍</span> Nairobi, Kenya</li>
+                <li><span>💼</span> <a href="https://www.linkedin.com/in/kevin-njoroge-560674279/" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+                <li><span>🐙</span> <a href="https://github.com/kevinnjoroge-w" target="_blank" rel="noopener">GitHub Profile</a></li>
+              </ul>
+            </div>
+            <form class="glass-card contact__form" id="contactForm">
+              <h3 class="card__title">Send Me a Message</h3>
+              <label>Name<input type="text" name="name" required /></label>
+              <label>Email<input type="email" name="email" required /></label>
+              <label>Message<textarea name="message" rows="4" required></textarea></label>
+              <button type="submit" class="btn btn--primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Kevin Njoroge. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js" defer></script>
   </body>
 </html>
